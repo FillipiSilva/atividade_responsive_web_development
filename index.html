@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
     <title>Chalé por do sol</title>
 </head>
 
 <body>
     <!-- NAV BAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">CHALÉ POR DO SOL</a>
+        <img src="https://img.icons8.com/doodle/50/000000/sun--v1.png"/>
+        <a class="navbar-brand ml-2" href="#">CHALÉ POR DO SOL</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -21,41 +23,44 @@
 
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item active mx-5">
                     <a class="nav-link" href="#">INICIO <span class="sr-only">(página atual)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-5">
                     <a class="nav-link" href="#">A POUSADA</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-5">
                     <a class="nav-link disabled" href="#">RESERVA</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-5">
                     <a class="nav-link disabled" href="#">CONTATO</a>
                 </li>
             </ul>
 
         </div>
     </nav>
+
+    <!-- IMG PRINCIPAL -->
     <div class="d-flex justify-content-center">
         <img class="imgPrincipal" src="img/img16.jpg" alt="imagem principal">
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-4" id="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/q-QXdJWm2O4" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="col-4" id="promocao">
-                <h1>PROMOÇÃO DE INVERNO</h1>
-                <h3>ABRIL 21, 2020</h3>
-                <img src="img/imgInverno.jpg" alt="Imagem de Inverno">
-                <p>5 Dias e pague apenas 4 de hospedagem com café da manhã incluído</p>
-            </div>
-        </div>
 
-        <div class="carousel, col-xl">
+    <!-- CONTEÚDO -->
+    <div class="row mx-md-n4">
+        <div class="col py-3 md-5 d-flex justify-content-center" id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/q-QXdJWm2O4" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        </div>
+        <div class="col py-3 md-5">
+            <h1>PROMOÇÃO DE INVERNO</h1>
+            <h6>ABRIL 21, 2020</h6>
+            <img class="imgInverno" src="img/imgInverno.jpg" alt="Imagem de Inverno">
+            <p><b>"</b>Fique <b>cinco dias</b> e pague apenas <b>quatro</b> de</p>
+            <p>hospedagem com café da manhã incluído!<b>"</b></p>
+        </div>
+        <div class="carousel col py-3">
             <ul class="slides">
                 <input type="radio" name="radio-buttons" id="img-1" checked />
                 <li class="slide-container">
@@ -106,25 +111,21 @@
                 </div>
             </ul>
         </div>
-
-
     </div>
 
+<!-- FOOTER -->
+    <footer class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <h5>Copyright © 2020 - Todos os direitos reservados - 9sys</h5>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <img src="https://img.icons8.com/doodle/50/000000/sun--v1.png"/>
+        <a class="navbar-brand mr-5" href="#">CHALÉ POR DO SOL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </footer>
 
 
 
@@ -138,8 +139,4 @@
 
 
 </body>
-
-
-
-
 </html>
