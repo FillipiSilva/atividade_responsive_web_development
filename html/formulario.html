@@ -36,27 +36,33 @@
        </div>
    </nav>
 
-   <div class="m-5 d-flex justify-content-center">
-       <h1>Sobre nós...</h1>
-   </div>
-   <div class="d-flex justify-content-center">
-       <img class="imgInverno" src="../img/img02.jpg" alt="Imagem sobre nós">
-    </div>
-    <div class="m-5 d-flex justify-content-center">
-       <p class="texto">Localizado em Campos do Jordão, no estado de São Paulo, a 9 km de Capivari, o Chalés Por do Sol oferece acomodações com Wi-Fi gratuito, parquinho infantil, jardim e estacionamento privativo gratuito. <br><br>
+   <div id="formulario" class="m-5 d-flex justify-content-center">
+   <form>
 
-        As unidades dispõem de varanda térrea, TV de tela plana e banheiro privativo com amenidades de banho gratuitas.
-        
-        No chalé, você pode desfrutar de um café da manhã continental.
-        
-        Você pode fazer trilhas a pé nas proximidades.<br><br>
-        
-        Belvedere fica a 11 km do Chalés Por. O Sol fica a 24 km do Parque do Horto Florestal. O aeroporto mais próximo é o Aeroporto de São José dos Campos, a 89 km de distância.
-        
-        Casais particularmente gostam da localização — eles deram nota 8,3 para viagem a dois.<br><br>
-        
-        Nós falamos a sua língua!</p>
-   </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput">Nome</label>
+        <input type="text" class="form-control" id="nomeCaixa" placeholder="Seu nome">
+      </div>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email</label>
+      <input type="email" class="form-control" id="emailCaixa" aria-describedby="emailHelp" placeholder="Seu email">
+      <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+    </div>
+
+    <div class="form-group">
+        <label for="formGroupExampleInput">Assunto</label>
+        <input type="text" class="form-control" id="assuntoCaixa" placeholder="Coloque o assunto...">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Comentários</label>
+        <textarea class="form-control" id="comentarioCaixa" rows="3"></textarea>
+      </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+  </div>
 
    <footer class="navbar navbar-expand-lg navbar-light bg-light mt-3">
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">

@@ -33,14 +33,33 @@ h5{
 }
 
 .imgInverno{
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .texto{
     text-align: center;
 }
 
+form{
+    width: 40%;
+    height: 492px;
+    background: rgba(218, 179, 8, 0.6);
+    padding: 10px;
+    border-radius: 20px;
+}
 
+#comentarioCaixa{
+    resize: none;
+}
+
+#assuntoCaixa{
+    width: 30%;
+}
+
+
+
+
+/* CAROSSEL */
 .carousel {
     margin-left: 15%;
     margin-right: 15%;
