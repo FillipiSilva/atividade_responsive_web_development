@@ -8,6 +8,11 @@ body{
     width: 100%;
 }
 
+.imgInverno{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
 iframe{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
@@ -16,18 +21,37 @@ h1, h6, p{
     font-family: 'Comic Neue', cursive;
 }
 
+h5{
+    text-align: center;
+    font-size: 15px;
+}
+
 p{
     font-size: 25px;
     text-align: left;
     margin: 0;
 }
 
-h5{
-    text-align: center;
+.listaQuarto{
+    text-align: left;
 }
 
-.imgInverno{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+.textoQuarto{
+    margin-left: 30px;
+}
+
+.tituloValor{
+    text-align: center;
+    margin: 20px;
+}
+
+.textoValor{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background: rgba(218, 179, 8);
+    border-radius: 20px;
+    width: 30%;
 }
 
 .texto{
@@ -54,29 +78,15 @@ form{
     width: 70%;
 }
 
-.listaQuarto{
-    text-align: left;
+#footer{
+    height: auto;
 }
 
-.textoQuarto{
-    margin-left: 30px;
+footer a img{
+    width: 30px;
 }
 
-.tituloValor{
-    text-align: center;
-    margin: 20px;
-}
-
-.textoValor{
-    text-align: center;
-    font-size: 20px;
-    color: white;
-    background: rgba(218, 179, 8);
-    border-radius: 20px;
-    width: 30%;
-}
-
-/* CAROSSEL */
+/* CARROSSEL */
 .carousel {
     margin-left: 15%;
     margin-right: 15%;
