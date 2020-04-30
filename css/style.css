@@ -12,6 +12,35 @@ body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+/*QUARTO*/
+.tituloQuartos{
+    font-weight: bolder;
+}
+
+.img-quarto{
+    width: 410px;
+    height: 273px;
+}
+
+.img-quarto:hover{
+    transition: 0.3s;
+    width: 430px;
+    height: 286px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.premium{
+    color: #daa520;
+}
+
+/*CONTATO*/
+.caixa-valor{
+    opacity: 70%;
+}
+
+.botao-formulario{
+    background-color: rgba(218, 179, 8) ;
+}
 
 iframe{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
